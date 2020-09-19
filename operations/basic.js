@@ -17,8 +17,18 @@ let divide = (a,b)=>{
      } else {
      console.log('Donkey XD'.red)
      }
-}
+ }
+ let squad = (a,b)=>{
 
+console.log('a.a=',a*a); 
+ return
+ }
+ let cube = (a,b)=>{
+console.log('a.a.a=',a*a*a)
+return
+
+ } 
+ 
 
 
 
@@ -34,6 +44,7 @@ module.exports = {
     sum,
     minus,
     product,
-    divide   
- 
+    divide,   
+    squad,
+    cube
 }
